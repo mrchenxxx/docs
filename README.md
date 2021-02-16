@@ -10,6 +10,7 @@
     - 使用 Node-Red 设置自动化
 
 3. docker
-    - 安装 ``homeassistant``
+    - 安装 ``homeassistant``、
+    - 教程
   
 4. 更新中

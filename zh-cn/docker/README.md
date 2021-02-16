@@ -1,3 +1,31 @@
+## 在 ``cenos`` 上安装
+> [!TIP|label:步骤]
+> 1. 卸载旧版本
+> ``` linux
+> sudo yum remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-engine
+    ```
+> 2. 设置Docker存储库
+> ``` linux
+> sudo yum install -y yum-utils
+    ```
+> ``` linux
+> sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+    ```
+> 3. 安装DOCKER
+> ``` linux
+> sudo yum install docker-ce docker-ce-cli containerd.io
+> ```
+
+
 ## docker 配置阿里云镜像加速
 > [!TIP|label:步骤]
 > 1. 打开 [阿里云](https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors) （控制台 → 左上角菜单 → 产品与服务 → 弹性计算 → 容器镜像服务 → 镜像加速器）
