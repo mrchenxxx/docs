@@ -47,11 +47,13 @@
 ### 安装
 > [!TIP|label:步骤]
 > 1. pull
+> 
 > `` docker
 > docker pull hypriot/rpi-mysql:latest
 > ``
 > 
 > 2. run
+> 
 > `` docker
 > docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -d -p 3306:3306 hypriot/rpi-mysql
 > ``
