@@ -46,11 +46,13 @@
 
 ### 安装
 > [!TIP|label:步骤]
-> 1. 输入指令：
+> 1. pull
 > ``docker pull hypriot/rpi-mysql:latest``
 > 
-> 2. run:
+> 2. run
 > ``docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -d -p 3306:3306 hypriot/rpi-mysql``
 
-
-
+> [!TIP|label:z注意]
+> 1. 此mysql为在树莓派上的版本，不同于 ``centos`` 上的
+> 
+> 2. ``MYSQL_ROOT_PASSWORD=123456`` 中的 ``123456`` 为登录 ``mysql`` 时的密码,你可以换成别的
