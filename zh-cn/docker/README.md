@@ -41,3 +41,16 @@
 ## docker run的原理和流程
 > [!TIP|label:如图所示]
 > ![原理图](../../_media/docker/run的流程图.png)
+
+## mysql
+
+### 安装
+> [!TIP|label:步骤]
+> 1. 输入指令：
+> ``docker pull hypriot/rpi-mysql:latest``
+> 
+> 2. run:
+> ``docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -d -p 3306:3306 hypriot/rpi-mysql``
+
+
+
