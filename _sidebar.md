@@ -10,3 +10,6 @@
 
 * docker
     - [教程](zh-cn/docker/README.md)
+
+* homeassistant
+    - [教程](zh-cn/homeassistant/READEME.md)
